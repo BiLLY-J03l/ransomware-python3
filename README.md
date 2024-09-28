@@ -37,10 +37,15 @@ This repo consists of three files:
 
 
 -DO NOT RUN THE ENCRYPTOR SCRIPT ON YOUR COMPUTER, USE A VIRTUAL MACHINE.
+
 -The perks of the project:
+
   1-No extra libs are needed other than a clean python3 installation.
+  
   2-uses XOR encryption via bitwise operations.
+  
   3-you can modify the script to not encrypt certain folders which can come in handy.
+  
 
 
 
