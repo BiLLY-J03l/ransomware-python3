@@ -6,14 +6,14 @@ Ransomware made with python3
 This repo consists of three files:
   
   1-the encrypt file:
-  
-   -it generates a 512-bit key and initiates a connection to a server that you specify in the file.
-    
-   -then it initiates a connection to a server that you specify in the file and sends the key to the server.
-    
-   -then it starts encrypting the whole system whether it's a linux or a windows system.
-    
-   -it relies on XOR encryption technique.
+      
+       -it generates a 512-bit key and initiates a connection to a server that you specify in the file.
+        
+       -then it initiates a connection to a server that you specify in the file and sends the key to the server.
+        
+       -then it starts encrypting the whole system whether it's a linux or a windows system.
+        
+       -it relies on XOR encryption technique.
     
   2-the decrypt file:
     
