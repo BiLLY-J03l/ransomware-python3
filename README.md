@@ -41,3 +41,19 @@ This repo consists of three files:
   1-No extra libs are needed other than a clean python3 installation.
   2-uses XOR encryption via bitwise operations.
   3-you can modify the script to not encrypt certain folders which can come in handy.
+
+
+
+
+-extra info:
+  
+  -if you encountered some difficulties in running one of the scripts on linux, try:
+
+    apt install dos2unix
+    dos2unix encryptor.py decryptor.py server.py 
+
+  -to get the key in hex format to supply it to the decryptor.py file, try:
+
+    cat enc_key.key | xxd -p
+
+  
