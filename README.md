@@ -57,12 +57,12 @@ This repo consists of three files:
 
 -extra info:
   
-  -if you encountered some difficulties in running one of the scripts on linux, try:
+  -if you encountered some difficulties in running one of the scripts on linux:
 
     apt install dos2unix
     dos2unix encryptor.py decryptor.py server.py 
 
-  -to get the key in hex format to supply it to the decryptor.py file, try:
+  -to get the key in hex format to supply it to the decryptor.py file:
 
     cat enc_key.key | xxd -p
 
