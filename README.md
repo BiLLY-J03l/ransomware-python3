@@ -5,7 +5,7 @@ Ransomware made with python3
 
 -How the encryption process works:
   
-  -the script opens a file in bits format and it already has the key in bits format and then it XORs the bits together and gives out the encrypted result and overwrite it back to the file.
+  -the script opens a file in bits format and it already has the key in bits format and then it XORs the bits together and gives out the encrypted result and overwrite the file.
 
 This repo consists of three files:
   
@@ -41,7 +41,7 @@ This repo consists of three files:
       chmod +x *
 
 
--DO NOT RUN THE ENCRYPTOR SCRIPT ON YOUR COMPUTER, USE A VIRTUAL MACHINE.
+-DO NOT RUN THE ENCRYPTOR SCRIPT ON YOUR COMPUTER, USE A VIRTUAL MACHINE!
 
 -The perks of the project:
 
