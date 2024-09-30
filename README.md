@@ -5,7 +5,7 @@ Ransomware made with python3
 
 -How the encryption process works:
   
-  -the script opens a file in bits format and it already has the key in bits format and then it XORs the bits together and gives out the encrypted result and write it back to the file.
+  -the script opens a file in bits format and it already has the key in bits format and then it XORs the bits together and gives out the encrypted result and overwrite it back to the file.
 
 This repo consists of three files:
   
