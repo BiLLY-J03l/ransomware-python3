@@ -3,9 +3,13 @@ Ransomware made with python3
 
 -The ransomware doesn't rely on third party libs, so all you need from the victim machine is just a regular python3 installation ;)
 
+-How the encryption process works:
+  
+  -the script opens a file in bits format and it already has the key in bits format and then it XORs the bits together and gives out the encrypted result and write it back to the file.
+
 This repo consists of three files:
   
-1-the encrypt file:
+1-the encryptor file:
   
   -it generates a 512-bit key and initiates a connection to a server that you specify in the file.
     
@@ -14,8 +18,9 @@ This repo consists of three files:
   -then it starts encrypting the whole system whether it's a linux or a windows system.
     
    -it relies on XOR encryption technique.
+
     
-2-the decrypt file:
+2-the decryptor file:
     
  -the file takes the key in hexadecimal format and decrypts the files.
 
@@ -40,7 +45,7 @@ This repo consists of three files:
 
 -The perks of the project:
 
-  1-No extra libs are needed other than a clean python3 installation.
+  1-uses only os lib, socket lib, time lib (for debugging).
   
   2-uses XOR encryption via bitwise operations.
   
