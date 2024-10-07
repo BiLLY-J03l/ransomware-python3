@@ -49,7 +49,7 @@ This repo consists of three files:
   
   2-uses XOR encryption via bitwise operations.
   
-  3-you can modify the script to not encrypt certain folders which can come in handy.
+  3-you can modify the script to not encrypt certain folders (or extensions) which can come in handy.
   
 
 
